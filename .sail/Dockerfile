@@ -7,3 +7,4 @@ RUN curl -LSfs https://japaric.github.io/trust/install.sh | sudo sh -s -- --git 
 RUN echo "complete -W '$(just --summary)' just" >> ~/.bashrc
 
 RUN installext mathiasfrohlich.kotlin
+RUN installext k--kato.intellij-idea-keybindings
