@@ -2,7 +2,7 @@
   "name": "spring-boot-kotlin",
   "repository": "https://github.com/linux-china/spring-boot-kotlin-template",
   "description": "Spring Boot App Kotlin",
-  "auto_run": "mvn -DskipTests compile",
+  "post_create": "mvn -DskipTests compile",
   "variables": [
     {
       "name": "groupId",
